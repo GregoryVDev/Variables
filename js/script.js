@@ -1,3 +1,9 @@
+
+//                EXO POUR LES VARIABLES
+
+
+
+
 // Exercice 1: Déclaration de variables
 
 // Déclarez les variables suivantes en leur attribuant des valeurs appropriées :
@@ -190,3 +196,147 @@ let AnneeActuelle = DateActuelle.getFullYear();
 let Age = AnneeActuelle - AnneeNaissance
 
 console.log(Age);
+
+console.log("------------------");
+
+
+
+
+
+
+
+let c = 'Les gens'
+let d = 'Salut'
+let isMajeur = undefined
+let array = [
+    13,
+    14,
+    8,
+    9,
+    'hello',
+    [1,2,3]
+]
+let person = {
+    PrenomUser: 'Avo',
+    NomUser: 'Mougoutch',
+    age: 27,
+    array: [12, 14, 15],
+    job: {
+        name: 'Cuisinier',
+        hours: 42
+    }
+}
+
+console.log(array[5][2]); // Affiche le 3
+
+console.log(person.PrenomUser);
+console.log(person.array[1]);
+console.log(person.job.name);
+
+person.job.name = 'Développeur'
+console.log(person.job.name);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//       EXO POUR LES BOOLENS ET TABLEAUX
+
+
+
+
+// EXO 1 : Commencez par définir un tableau (un tableau) d'entiers ou de chaînes de caractères. Par exemple : let numbers = [10, 20, 30, 40, 50];.
+
+// EXO 2 : Demandez ensuite à l'utilisateur d'entrer une valeur à rechercher.
+
+// EXO 3 : Utilisez une boucle for pour parcourir le tableau et vérifier si l'élément entré par l'utilisateur se trouve dans le tableau.
+
+// EXO 4 :  Utilisez un booléen pour indiquer si l'élément a été trouvé ou non.
+
+// EXO 5 :  Affichez un message approprié pour indiquer si l'élément a été trouvé ou non.
+
+
+
+// Exo n°1
+
+// let notes = [11, 10, 12, 1995, "Bonjour je suis amoureux d'Elise Mengual, gros bisous les geeeens lol", 2,[1,5,15]]
+
+// Pour aller dans le 2e tableau il faut faire la commande notes[6][1] notes[6] (car c'est le 2e tableau qui est à la 6e place et [1] pour avoir le numéro "5" du 2e tableau
+
+
+
+// Exo n°2
+
+// let ValueToFind= parseInt(prompt("Entrez une valeur à rechercher :"))
+
+
+
+// Exo n°3
+
+
+
+
+
+// Exo n°4
+
+
+
+
+// Exo n°5
+
+
+
+// console.log("------------------");
+
+
+
+
+
